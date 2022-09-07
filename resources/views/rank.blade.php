@@ -5,7 +5,11 @@
     <article>
         <h1>Ranking</h1>
         <p>
-            ranking
+        Pos	Driver	Car
+1	VER	Red Bull Racing RBPT
+2	LEC	Ferrari
+3	PER	Red Bull Racing RBPT
+4	RUS	Mercedes
         </p>
     </article>
     
