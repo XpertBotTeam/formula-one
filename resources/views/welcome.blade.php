@@ -1,6 +1,11 @@
 <!DOCTYPE html>
+<title>formula one is a word</title>
+<body>
+    home of formula one
+</body>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
+<link rel="stylesheet" href="/app.css">
+<head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,15 +36,11 @@
 
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                       
-                       @endif
+                     @endif
                     @endauth
                 </div>
             @endif
-            
-                            
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -49,12 +50,11 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                 </div>
+
+                         
             
             
-             <body>
-                <h1>formula one is a word!!</h1>
-               
-                <body>
+             
                 
                             
 

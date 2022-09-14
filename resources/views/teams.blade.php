@@ -1,4 +1,4 @@
-<title>my blog</title>
+<title>formula one</title>
 <link rel="stylesheet" href="/app.css">
 
 <body>
